@@ -12,7 +12,7 @@ docker tag mysql rajjo103/capstone:mysql
 docker tag maven1-bookings-management rajjo103/capstone:maven1-bookings-management
 docker tag maven1-email-service rajjo103/capstone:maven1-email-service
 docker tag maven1-chat-service rajjo103/capstone:maven1-chat-service
-        docker tag build-payment-service rajjo103/capstone:maven1-payment-service
+        docker tag maven1-payment-service rajjo103/capstone:maven1-payment-service
 docker tag maven1-user-service rajjo103/capstone:maven1-user-service
 docker tag maven1-authentication-service rajjo103/capstone:maven1-authentication-service
 docker tag maven1-eureka-server rajjo103/capstone:maven1-eureka-server
