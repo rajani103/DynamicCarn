@@ -8,7 +8,7 @@ if [ $? -ne 0 ] ; then
 fi
 echo "====> Tagging the image"
 docker tag api-gateway rajjo103/capstone:api-gateway
-docker tag mysql rajan9886886836/dockertry:mysql
+docker tag mysql rajjo103/capstone:mysql
 docker tag build-bookings-management rajjo103/capstone:build-bookings-management
 docker tag build-email-service rajjo103/capstone:build-email-service
 docker tag build-chat-service rajjo103/capstone:build-chat-service
